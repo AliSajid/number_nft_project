@@ -1,14 +1,20 @@
 {
-    "author": {
-        "name": "Ali Sajid Imami"
-    },
-    "description": "The home for the smart contracts for the Number NFT project",
-    "devDependencies": {
-        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-        "hardhat": "^2.22.7"
-    },
-    "license": "MIT",
-    "name": "number_nft_contracts",
-    "private": true,
-    "version": "0.0.1"
+  "author": {
+    "name": "Ali Sajid Imami"
+  },
+  "description": "The home for the smart contracts for the Number NFT project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.7"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "test": "hardhat test",
+    "node": "hardhat node"
+  },
+  "license": "MIT",
+  "name": "number_nft_contracts",
+  "private": true,
+  "version": "0.0.1"
 }
