@@ -1,8 +1,11 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-FileCopyrightText: 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.24;
 
 // Uncomment this line to use console.log
-// import "hardhat/console.sol";
+import "hardhat/console.sol";
 
 contract Lock {
     uint public unlockTime;

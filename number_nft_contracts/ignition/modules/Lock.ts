@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const JAN_1ST_2030 = 1893456000;

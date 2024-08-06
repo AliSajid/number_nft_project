@@ -1,0 +1,102 @@
+version = 1
+SPDX-PackageName = "number_nft_project"
+SPDX-PackageSupplier = "Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-PackageDownloadLocation = "https://github.com/AliSajid/number_nft_project"
+
+[[annotations]]
+path = "renovate.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "tsconfig.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "package.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".github/workflows/**.yaml"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ".eslintignore"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [
+  ".gitignore",
+  "number_nft_contracts/.gitignore",
+  "number_nft_frontend/.gitignore",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["**/*/.markdownlintignore"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ["**/*.prettierignore", "**/*/.prettierrc"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ".secrets.baseline"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ".gitleaksignore"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = ".gitattributes"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "**.json"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "pnpm-lock.yaml"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "REUSE.toml"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = [
+  "number_nft_frontend/static/**/*.ico",
+  "number_nft_frontend/static/**/*.png",
+  "number_nft_frontend/static/**/*.svg",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
+SPDX-License-Identifier = "MIT"

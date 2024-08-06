@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {

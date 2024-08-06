@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Ali Sajid Imami
+//
+// SPDX-License-Identifier: MIT
+
 import { expect, test } from '@playwright/test';
 
 test('home page has expected h1', async ({ page }) => {
