@@ -1,0 +1,6 @@
+---
+packages:
+  # The sveltekit-based frontend of the project
+  - "number_nft_frontend"
+  # The hardhat-based smart contract interface
+  - "number_nft_contracts"
