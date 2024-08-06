@@ -1,32 +1,32 @@
 {
-  "name": "number-nft-project",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A project for creating and selling NFTs of numbers",
-  "type": "module",
-  "scripts": {
-    "frontend:dev": "pnpm run --dir number_nft_frontend dev",
-    "frontend:build": "pnpm run --dir number_nft_frontend build",
-    "frontend:preview": "pnpm run --dir number_nft_frontend preview",
-    "frontend:test": "pnpm run --dir number_nft_frontend test:integration && pnpm run --dir number_nft_frontend test:unit",
-    "frontend:check": "pnpm run --dir number_nft_frontend check",
-    "frontend:check:watch": "pnpm run --dir number_nft_frontend check:watch",
-    "lint": "prettier --check . && eslint .",
-    "format": "prettier --write .",
-    "frontend:test:integration": "pnpm run --dir number_nft_frontend test:integration",
-    "frontend:test:unit": "pnpm run --dir number_nft_frontend test:unit"
-  },
-  "packageManager": "pnpm@9.6.0",
-  "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=9.0.0"
-  },
-  "devDependencies": {
-    "vite": "^5.3.5",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "typescript": "^5.0.0",
-    "typescript-eslint": "^8.0.0",
-    "prettier": "^3.1.1"
-  }
+    "description": "A project for creating and selling NFTs of numbers",
+    "devDependencies": {
+        "eslint": "^9.0.0",
+        "eslint-config-prettier": "^9.1.0",
+        "prettier": "^3.1.1",
+        "typescript": "^5.0.0",
+        "typescript-eslint": "^8.0.0",
+        "vite": "^5.3.5"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "pnpm": ">=9.0.0"
+    },
+    "name": "number-nft-project",
+    "packageManager": "pnpm@9.6.0",
+    "private": true,
+    "scripts": {
+        "format": "prettier --write .",
+        "frontend:build": "pnpm run --dir number_nft_frontend build",
+        "frontend:check": "pnpm run --dir number_nft_frontend check",
+        "frontend:check:watch": "pnpm run --dir number_nft_frontend check:watch",
+        "frontend:dev": "pnpm run --dir number_nft_frontend dev",
+        "frontend:preview": "pnpm run --dir number_nft_frontend preview",
+        "frontend:test": "pnpm run --dir number_nft_frontend test:integration && pnpm run --dir number_nft_frontend test:unit",
+        "frontend:test:integration": "pnpm run --dir number_nft_frontend test:integration",
+        "frontend:test:unit": "pnpm run --dir number_nft_frontend test:unit",
+        "lint": "prettier --check . && eslint ."
+    },
+    "type": "module",
+    "version": "0.1.0"
 }
