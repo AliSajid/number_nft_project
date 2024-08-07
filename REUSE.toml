@@ -34,11 +34,7 @@ SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
 SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
-path = [
-  ".gitignore",
-  "number_nft_contracts/.gitignore",
-  "number_nft_frontend/.gitignore",
-]
+path = "**/*/.gitignore"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"
 SPDX-License-Identifier = "CC0-1.0"
@@ -93,9 +89,9 @@ SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
 path = [
-  "number_nft_frontend/static/**/*.ico",
-  "number_nft_frontend/static/**/*.png",
-  "number_nft_frontend/static/**/*.svg",
+  "frontend/static/**/*.ico",
+  "frontend/static/**/*.png",
+  "frontend/static/**/*.svg",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2024 Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>"

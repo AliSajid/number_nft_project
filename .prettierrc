@@ -9,6 +9,10 @@
             }
         }
     ],
+    "plugins": [
+        "prettier-plugin-svelte",
+        "prettier-plugin-multiline-arrays"
+    ],
     "printWidth": 80,
     "semi": true,
     "singleQuote": true,
